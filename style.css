@@ -2,11 +2,16 @@ html {
   height: 100%;
   width: 100%;
 }
-
 body {
   text-align: center;
   font-family: 'Comic Sans MS';
-  background: #b3f7ff
+  background: repeating-linear-gradient(
+    45deg,
+    #b3f7ff,
+    #b3f7ff 30px,
+    #ccf9ff 30px,
+    #ccf9ff 60px
+  );
 }.dancingmudkip {
   height: 160px;
   position: fixed;
